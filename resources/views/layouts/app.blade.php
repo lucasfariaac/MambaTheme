@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="{{url('/img/favicon.png')}}" rel="icon">
   <link rel="stylesheet" href="{{   asset('css/app.css')     }}">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -21,6 +21,7 @@
 
   <!-- Vendor CSS Files -->
   <link href="{{url('/css/style.css')}}" rel="stylesheet">
+  <link href="{{url('/animate/animate.css')}}" rel="stylesheet">
   <link href="{{url('/animate/animate.min.css')}}" rel="stylesheet">
   <link href="{{url('/css/venobox.css')}}" rel="stylesheet">
   <link href="{{url('/css/icofont.css')}}" rel="stylesheet">
@@ -31,15 +32,6 @@
   <!-- or -->
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Mamba - v2.0.1
-  * Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
