@@ -23,6 +23,7 @@
   <link href="{{url('/css/style.css')}}" rel="stylesheet">
   <link href="{{url('/animate/animate.min.css')}}" rel="stylesheet">
   <link href="{{url('/css/venobox.css')}}" rel="stylesheet">
+  <link href="{{url('/css/icofont.css')}}" rel="stylesheet">
   <link href="{{url('/css/icofont.min.css')}}" rel="stylesheet">
   <link href="{{ mix('css/app.css') }}" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
