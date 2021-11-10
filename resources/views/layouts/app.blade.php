@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{url('/img/favicon.png')}}" rel="icon">
+  <link href="{{asset('/img/favicon.png')}}" rel="icon">
   <link rel="stylesheet" href="{{   asset('css/app.css')     }}">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -20,17 +20,8 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{url('/css/style.css')}}" rel="stylesheet">
-  <link href="{{url('/animate/animate.css')}}" rel="stylesheet">
-  <link href="{{url('/animate/animate.min.css')}}" rel="stylesheet">
-  <link href="{{url('/css/venobox.css')}}" rel="stylesheet">
-  <link href="{{url('/css/icofont.css')}}" rel="stylesheet">
-  <link href="{{url('/css/icofont.min.css')}}" rel="stylesheet">
-  <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-  <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
-  <!-- or -->
-  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
 
 </head>
 
@@ -89,7 +80,6 @@
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
-
           </div>
 
         </div>
@@ -113,15 +103,13 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->app.js
-  <script src="{{ mix('js/app.js') }}"></script>
-  <script src="{{url('/js/main.js')}}"></script>
-  <script src="{{url('/js/aos.js')}}"></script>
-  <script src="{{url('/js/aos.js')}}"></script>
-  <script src="{{url('/js/counterup.min.js')}}"></script>
-  <script src="{{url('/js/jquery.waypoints.min.js')}}"></script>
-  <script src="{{url('/js/jquery.sticky.js')}}"></script>
-  <script src="{{url('/js/isotope.pkgd.min.js')}}"></script>
+ 
   <script src="bower_components/aos/dist/aos.js"></script>
+
+  <script src="{{asset('js/all.js')}}"></script>
+  <script src="{{asset('js/main.js')}}"></script>
+  <script src="{{asset('js/venobox.js')}}"></script>
+  <script src="{{asset('js/aos.js')}}"></script>
 
 </body>
 

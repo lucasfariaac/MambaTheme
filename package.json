@@ -23,6 +23,7 @@
     },
     "dependencies": {
         "@icon/icofont": "^1.0.1-alpha.1",
+        "@popperjs/core": "^2.10.2",
         "animate.css": "^4.1.1",
         "aos": "^2.3.4",
         "boxicons": "^2.0.9",
@@ -30,6 +31,7 @@
         "isotope-layout": "^3.0.6",
         "jquery-sticky": "^1.0.4",
         "jquery.easing": "^1.4.1",
+        "venobox": "^1.9.3",
         "waypoints": "^4.0.1"
     }
 }
