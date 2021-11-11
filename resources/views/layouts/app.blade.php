@@ -110,8 +110,7 @@
 
   <script src="{{asset('js/all.js')}}"></script>
   <script src="{{asset('js/app.js')}}"></script>
-  <script src="{{asset('js/venobox.js')}}"></script>
-  <script src="{{asset('js/aos.js')}}"></script>
+
 
 </body>
 
