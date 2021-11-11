@@ -20,6 +20,7 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="{{asset('css/icofont.min.css')}}">
 
 
 
@@ -107,7 +108,7 @@
   <script src="bower_components/aos/dist/aos.js"></script>
 
   <script src="{{asset('js/all.js')}}"></script>
-  <script src="{{asset('js/main.js')}}"></script>
+  <script src="{{asset('js/app.js')}}"></script>
   <script src="{{asset('js/venobox.js')}}"></script>
   <script src="{{asset('js/aos.js')}}"></script>
 
