@@ -21,6 +21,7 @@
 
   <!-- Vendor CSS Files -->
   <link rel="stylesheet" href="{{asset('css/icofont.min.css')}}">
+  <link rel="stylesheet" href="{{asset('css/icofont.css')}}">
 
 
 
